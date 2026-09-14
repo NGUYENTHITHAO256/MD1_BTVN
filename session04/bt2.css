@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: xx-large;
+}
+p {
+    text-align: center;
+    background-color: darkgray;
+}
+a {
+    color: black;
+    margin-right: 30px;
+    text-decoration: none;
+}
