@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+    dùng thẻ h1 để tạo tiêu đề chung
+    dùng thẻ nav để bọc các thẻ a được chưa trong danh sách ul cách lề trái 20px
+    dùng h2 tạo 2 tiêu đề nhỏ
+    trong h2 đầu tiên tạo bảng table border bằng 1
+    trong h2 thứ 2 tạo form
+    dùng button để tạo nút bấm đặt hàng
+    dùng entity để tạo mã ký tự đặc biệt copy
+    -->
+    <h1>Trang web bán hàng</h1>
+    <nav>
+        <ul>
+            <li><a href="">Trang chủ</a> </li>
+            <li><a href="">Sản phẩm</a> </li>
+            <li><a href="">Giới thiệu</a> </li>
+            <li><a href="">Liên hệ</a> </li>
+        </ul>
+    </nav>
+    
+    <h2>Thông tin sản phẩm</h2>
+    <table border="1">
+        <tr>
+            <th>Tên sản phẩm</th>
+            <th>Mô tả</th>
+            <th>Giá</th>
+            <th>Số lượng</th>
+        </tr>
+        <tr>
+            <td>Sản phẩm 1</td>
+            <td>Mô tả sản phẩm 1</td>
+            <td>100.000đ</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Sản phẩm 2</td>
+            <td>Mô tả sản phẩm 2</td>
+            <td>200.000đ</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>Sản phẩm 3</td>
+            <td>Mô tả sản phẩm 3</td>
+            <td>300.000đ</td>
+            <td>3</td>
+        </tr>
+        </table>
+        
+        
+        <h2>Thông tin người dùng</h2>
+        <form action="">
+            <div>
+                <lable for="name">Họ và tên:</lable>
+                <input type="text" id="name" name="name">
+            </div>
+            <div>
+                <lable for="email">Email:</lable>
+                <input type="email" id="email" name="email">
+            </div>
+            <div>
+                <lable for="phone">Số điện thoại:</lable>
+                <input type="tel" id="phone" name="phone">
+            </div>
+            <div>
+                <lable for="adress">Địa chỉ:</lable>
+                <input type="adress" id="adress" name="adress">
+            </div>
+            <button>Đặt hàng</button>
+        </form>
+        <footer>
+            <p>&copy;2023 Trang web bán hàng</p>
+        </footer>
+        
+    </body>
+    </html>
