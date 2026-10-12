@@ -1,0 +1,10 @@
+button {
+    font-weight: bold;
+    font-size: 50px;
+    background-color: white;
+    padding: 10px 30px;
+    border-top: 10px solid red;
+    border-right: 10px dotted blue;
+    border-bottom: 10px double green;
+    border-left: 10px solid purple;
+}
