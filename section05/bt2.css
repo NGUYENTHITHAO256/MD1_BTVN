@@ -1,0 +1,14 @@
+ul{
+    list-style-type:none; /* bỏ dấu chấm mặc định của thẻ ul */
+    padding:0;
+    width: 400px; /*dat chieurong khung danh sach*/
+}
+li{
+    background-color: lightgray;
+    color: white;
+    margin-bottom: 10px; /* khoang cach giua cac li*/
+    padding: 10px 20px; /*khoang cach ben trong li*/
+}
+li:hover{
+    background-color: darkgray;
+}
