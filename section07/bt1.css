@@ -1,0 +1,18 @@
+.flex-container{
+      width: 600px;
+      height: 400px;
+      background-color: lightgrey;
+      border: 2px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+}
+.flex-item{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
